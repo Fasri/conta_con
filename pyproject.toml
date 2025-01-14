@@ -1,0 +1,26 @@
+[project]
+name = "contadoria"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "felipe"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pandas (>=2.2.3,<3.0.0)",
+    "selenium (>=4.27.1,<5.0.0)",
+    "webdriver-manager (>=4.0.2,<5.0.0)",
+    "openpyxl (>=3.1.5,<4.0.0)",
+    "pydrive (>=1.3.1,<2.0.0)",
+    "pydrive2 (>=1.21.3,<2.0.0)",
+    "google-auth (>=2.37.0,<3.0.0)",
+    "google-auth-oauthlib (>=1.2.1,<2.0.0)",
+    "google-auth-httplib2 (>=0.2.0,<0.3.0)",
+    "google-api-python-client (>=2.159.0,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
